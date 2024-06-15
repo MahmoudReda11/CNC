@@ -1,0 +1,166 @@
+[
+    {
+        "id":0,
+        "img": "imge/0.jpg",
+        "name": "Fares Wael",
+        "job":"Team leader",
+        "p_english":"Purchasing the chassis, parts, and machine materials",
+        "gender":"boy"
+    },
+
+    {
+        "id":1, 
+        "img": "imge/1.jpg",
+        "name": "Youssef Ayman",
+        "job":"Man Of Match",
+        "p_english":"Purchase of chassis, spare parts, machine assembly, electrical installation",
+        "gender":"boy"
+    },
+
+    {
+        "id":2,
+        "img": "imge/2.jpg",
+        "name": "Muhamed Mustafa",
+        "job":"Front-End Developer",
+        "p_english":"Preparing and adjusting the machine table and creating a website",
+        "gender":"boy"
+    },
+
+    {
+        "id":3,
+        "img": "imge/3.jpg",
+        "name": "Menna Alah Mohamed",
+        "job":"photographer",
+        "p_english":"Purchasing a laser device, installing a laser device, and adjusting the laser",
+        "gender":"girl"
+    },
+
+    {
+        "id":4,
+        "img": "imge/4.jpg",
+        "name": "Shahd Mohamed",
+        "p_english":"Preparing and adjusting trains",
+        "gender":"girl"
+    },
+
+    {
+        "id":5,
+        "img": "imge/5.jpg",
+        "name": "Abd Elrahman Mohamed",
+        "p_english":"Wiring the electrical keys",
+        "gender":"boy"
+    },
+
+    {
+        "id":6,
+        "img": "imge/6.jpg",
+        "name": "Omar Abu Al-Ayash",
+        "p_english":"Installation of Arduino board, design, and burning the program",
+        "gender":"boy"
+    },
+
+    {
+        "id":7,
+        "img": "imge/7.jpg",
+        "name": "Zeina Mohamed",
+        "p_english":"Purchase of the machine frame",
+        "gender":"girl"
+    },
+
+    {
+        "id":8,
+        "img": "imge/8.jpg",
+        "name": "Rodina Osama Abdel Hakim",
+        "p_english":"Purchase of frame parts from machine materials",
+        "gender":"girl"
+    },
+
+    {
+        "id":9,
+        "img": "imge/9.jpg",
+        "name": "Ali Ramadan",
+        "p_english":"Preparation and cleaning of machine brushes and wiring the electrical keys",
+        "gender":"boy"
+    },
+
+    {
+        "id":10,
+        "img": "imge/10.jpg",
+        "name": "Ahmed Khamis",
+        "p_english":"Creating a catalog for the machine and compiling files specific to the project",
+        "gender":"boy"
+    },
+
+    {
+        "id":11,
+        "img": "imge/11.jpg",
+        "name": "Fares Essam",
+        "p_english":"Adjustment and preparation of machine screws, collecting safety information for the project",
+        "gender":"boy"
+    },
+
+    {
+        "id":12,
+        "img": "imge/12.jpg",
+        "name": "Alaa Islam",
+        "p_english":"Adjustment of the internal part of the project",
+        "gender":"girl"
+    },
+
+    {
+        "id":13,
+        "img": "imge/13.jpg",
+        "name": "Toka Issam",
+        "p_english":"Preparation and adjustment of the machine and creating reports",
+        "gender":"girl"
+    },
+
+    {
+        "id":14,
+        "img": "imge/14.jpg",
+        "name": "Somaya Khaled",
+        "p_english":"Purchase of parts and materials for the machine and adjustment of screws",
+        "gender":"girl"
+    },
+
+    {
+        "id":15,
+        "img": "imge/15.jfif",
+        "name": "Fatima Abdel Naim",
+        "p_english":"Preparation of the internal brush for the project and creating reports",
+        "gender":"girl"
+    },
+
+    {
+        "id":16,
+        "img": "imge/16.jpg",
+        "name": "Rodaina Hamdy Dsoky",
+        "p_english":"Purchase of the machine frame, safety",
+        "gender":"girl"
+    },
+
+    {
+        "id":17,
+        "img": "imge/17.jpeg",
+        "name": "Ahmed Reda",
+        "p_english":"Purchase of the frame and parts of the machine",
+        "gender":"boy"
+    },
+
+    {
+        "id":18,
+        "img": "imge/18.jpeg",
+        "name": "Abdullah Hamada",
+        "p_english":"Purchase of the machine frame, safety",
+        "gender":"boy"
+    },
+
+    {
+        "id":19,
+        "img": "imge/19.jpeg",
+        "name": "Abdulaziz Al-Fakhry",
+        "p_english":"Creating reports for the project, adjustment of machine screws, and laser adjustment",
+        "gender":"boy"
+    }
+
+]

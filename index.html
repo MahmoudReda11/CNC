@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystery Team</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="imge/cncIcon.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Css File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="swiperJs/swiper-bundle.min.css">
+</head>
+<body>
+
+
+    <div class="video_div">
+       <p onclick="open_close()"> <i class="fa-solid fa-xmark"></i></p>
+        <span onclick="open_close()"></span>
+        <video width="640" height="480" controls>
+            <source src="imge/VID-20240525-WA0014.mp4" type="video/mp4">
+
+        </video>
+    </div>
+
+
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">Mystery Team</a>
+
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="#">About CNC</a>
+                <a href="team.html">Team</a>
+            </div>
+
+            <div class="icons">
+                <span onclick="open_close()" class="btn_video"><i class="fa-solid fa-play"></i></span>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <div class="container">
+            <div class="swiper mySwiper image_hero">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="imge/team2.jpeg" alt=""></div>
+                  <div class="swiper-slide"><img src="imge/team1.jpeg" alt=""></div>
+                  <div class="swiper-slide"><img src="imge/project.webp" alt=""></div>
+                </div>
+              </div>
+
+            <div class="text">
+                <h1>The Mystery Team</h1>
+                <h2> CNC laser machine </h2>
+                <p>We are The Mystery Team, a group of university students who designed and built a CNC laser machine as our graduation project.</p>
+
+
+                <div class="btns">
+                    <a href="#" class="btn vs-btn">About CNC <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <span onclick="open_close()" class="btn_video"><i class="fa-solid fa-play"></i></span>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section class="proj">
+        <div class="container">
+            <div class="top_sec">
+                <h2>Our Project</h2>
+                <p>Meet Our Awesome And Expert Team Members</p>
+            </div>
+            <div class="boxs">
+                <div class="box">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>System Analysis</h3>
+
+                    <p>Diminution expression point reasonable it we he projection acceptance in devonshire.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>System Analysis</h3>
+
+                    <p>Diminution expression point reasonable it we he projection acceptance in devonshire.</p>
+                </div>
+
+
+                <div class="box">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>System Analysis</h3>
+
+                    <p>Diminution expression point reasonable it we he projection acceptance in devonshire.</p>
+                </div>
+
+
+                <div class="box">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>System Analysis</h3>
+
+                    <p>Diminution expression point reasonable it we he projection acceptance in devonshire.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="swiperJs/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

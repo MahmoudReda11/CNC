@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystery Team</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="img/logo-black.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Css File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<body>
+
+    
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Mystery Team</a>
+
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="#">About CNC</a>
+                <a href="team.html">Team</a>
+            </div>
+
+            <div class="icons">
+                <span onclick="open_close()" class="btn_video"><i class="fa-solid fa-play"></i></span>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="video_div">
+       <p onclick="open_close()"> <i class="fa-solid fa-xmark"></i></p>
+        <span onclick="open_close()"></span>
+        <video width="640" height="480" controls>
+            <source src="imge/VID-20240525-WA0014.mp4" type="video/mp4">
+
+        </video>
+    </div>
+
+    <section class="team">
+        <div class="container">
+            <div class="top_sec">
+                <h2>Our Team</h2>
+                <p>Meet Our Awesome And Expert Team Members</p>
+            </div>
+
+
+            <div class="cards" id="cards">
+                
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
