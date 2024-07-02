@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mystery Team</title>
 
     <!-- Fav Icon -->
-    <link rel="icon" href="imge/cncIcon.png" type="image/x-icon">
+    <link rel="icon" href="imge/cncIcon.png" type="image/x-icon" />
 
     <!-- Google Fonts -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Css File -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
 
     <!-- Swiper css -->
-    <link rel="stylesheet" href="swiperJs/swiper-bundle.min.css">
-</head>
-<body>
-
-
+    <link rel="stylesheet" href="swiperJs/swiper-bundle.min.css" />
+  </head>
+  <body>
     <div class="video_div">
-       <p onclick="open_close()"> <i class="fa-solid fa-xmark"></i></p>
-        <span onclick="open_close()"></span>
-        <video width="640" height="480" controls>
-            <source src="imge/VID-20240525-WA0014.mp4" type="video/mp4">
-
-        </video>
+      <p onclick="open_close()"><i class="fa-solid fa-xmark"></i></p>
+      <span onclick="open_close()"></span>
+      <video width="640" height="480" controls>
+        <source src="imge/VID-20240525-WA0014.mp4" type="video/mp4" />
+      </video>
     </div>
-
 
     <header>
         <nav class="container">
@@ -45,86 +42,233 @@
 
             <div class="links">
                 <a href="index.html">Home</a>
-                <a href="#">About CNC</a>
+                <a href="#about">About CNC</a>
                 <a href="team.html">Team</a>
+
+                <p class="btn_video Close_Menu" onclick="open_close_Menu()"> <i class="fa-solid fa-xmark"></i></p>
             </div>
 
             <div class="icons">
                 <span onclick="open_close()" class="btn_video"><i class="fa-solid fa-play"></i></span>
+                <span onclick="open_close_Menu()" class="btn_video btn_menu"><i class="fa-solid fa-bars"></i></span>
             </div>
         </nav>
     </header>
 
 
     <section class="hero">
-        <div class="container">
-            <div class="swiper mySwiper image_hero">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="imge/team2.jpeg" alt=""></div>
-                  <div class="swiper-slide"><img src="imge/team1.jpeg" alt=""></div>
-                  <div class="swiper-slide"><img src="imge/project.webp" alt=""></div>
-                </div>
-              </div>
-
-            <div class="text">
-                <h1>The Mystery Team</h1>
-                <h2> CNC laser machine </h2>
-                <p>We are The Mystery Team, a group of university students who designed and built a CNC laser machine as our graduation project.</p>
-
-
-                <div class="btns">
-                    <a href="#" class="btn vs-btn">About CNC <i class="fa-solid fa-arrow-right-long"></i></a>
-                    <span onclick="open_close()" class="btn_video"><i class="fa-solid fa-play"></i></span>
-                </div>
+      <div class="container">
+        <div class="swiper mySwiper image_hero">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="imge/team2.jpeg" alt="" /></div>
+            <div class="swiper-slide"><img src="imge/team1.jpeg" alt="" /></div>
+            <div class="swiper-slide">
+              <img src="imge/project.webp" alt="" />
             </div>
-
-            
+          </div>
         </div>
+
+        <div class="text">
+          <h1>The Mystery Team</h1>
+          <h2>CNC laser machine</h2>
+          <p>
+            We are The Mystery Team, a group of university students who designed
+            and built a CNC laser machine as our graduation project.
+          </p>
+
+          <div class="btns">
+            <a href="#" class="btn vs-btn"
+              >About CNC <i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+            <span onclick="open_close()" class="btn_video"
+              ><i class="fa-solid fa-play"></i
+            ></span>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <section class="about cnc" id="about">
+      <div class="top_sec">
+        <h2>About CNC</h2>
+      </div>
+
+      <div class="container">
+        <div class="sm_img">
+          <img
+            onclick="functio(this, 'CNC Laser Machines', 'CNC laser machines use laser beams to precisely cut materials in both industrial and small-scale applications. The technology, first used in 1965 for jewelry piercing, expanded by 1970 to include metals like titanium for aircraft manufacturing.')"
+            src="imge/222.png"
+            alt=""
+          />
+          <img
+            onclick="functio(this, 'Laser', 'The 80 Watt Laser Diode is a powerful semiconductor laser that converts electricity into coherent light, producing a narrow beam for precise industrial applications like welding, cutting, engraving, and laser cleaning. Due to its high power, safety measures such as following manufacturer guidelines and wearing protective equipment are essential.')"
+            src="imge/016.jpeg"
+            alt=""
+          />
+          <img
+            onclick="functio(this, 'Motor ', 'The NEMA 17 stepper motor 42BYGH is a high-torque motor (42N.cm) used in 3D printers, CNC machines, medical devices, and automation equipment. It features a 1.8° step angle, 1.5A current per phase, and comes with a 1-meter power cable for easy installation.')"
+            src="imge/333.jpeg"
+            alt=""
+          />
+          <img
+            onclick="functio(this, 'Ddrv8825', 'This stepper motor driver program controls a bipolar stepper motor with up to 2.2 amps per coil, featuring six step resolutions, adjustable current control, and compatibility with 3.3V and 5V systems. It includes protections against thermal shutdown, overcurrent, low voltage, short-to-ground, and short-to-load, with a design optimized for heat dissipation.')"
+            src="imge/017.jpg"
+            alt=""
+          />
+          <img
+            onclick="functio(this, 'Power supply ', 'The 12V 15A power supply converts AC to 12V DC, used widely in security systems, LED lighting, and electronic devices. It features high reliability, energy efficiency, comprehensive protection, ease of use, and a reasonable price but can be bulky and noisy due to the cooling fan.')"
+            src="imge/020.jpg"
+            alt=""
+          />
+          <img
+            onclick="functio(this, 'Arduino ', 'The Arduino Uno is a versatile tool for robotics, sensor devices, home automation, multimedia projects, and education, making it ideal for beginners in electronics and programming. To start, you' , 'll need an Arduino Uno board, USB cable, computer, Arduino IDE software, and other project-specific components.')"
+            src="imge/021.png"
+            alt=""
+          />
+        </div>
+
+        <div class="cont_flex">
+          <div class="big_img">
+            <img src="imge/778.jpg" alt="" id="imagebox" />
+          </div>
+          <div class="div_text">
+            <h3 id="title">CNC LASER CUTING MACHINES</h3>
+            <p id="parg">
+              The first laser machine was produced. For piercing jewelry, this
+              machine was used by Western Electric Center For engineering and
+              research In 1970, technology was developed and the use of lasers
+              expanded to include metals like Titanium for aircraft
+              manufacturing.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="proj">
-        <div class="container">
-            <div class="top_sec">
-                <h2>Our Project</h2>
-                <p>Meet Our Awesome And Expert Team Members</p>
-            </div>
-            <div class="boxs">
-                <div class="box">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>System Analysis</h3>
+    <section class="how_it_work ">
+        <div class="top_sec">
+            <h2>How it Work </h2>
+          </div>
+      <div class="container">
+        <h3>CNC LASER CUTING MACHINES</h3>
+        <p>
+          CNC (Computer Numerical Control) laser technology is one of the most
+          advanced technologies in modern manufacturing. It relies on using
+          laser beams for cutting, engraving, and marking various materials,
+          allowing for high precision and intricate details.
+        </p>
 
-                    <p>Diminution expression point reasonable it we he projection acceptance in devonshire.</p>
-                </div>
+        <h3>How CNC Laser Works</h3>
 
-                <div class="box">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>System Analysis</h3>
+        <p>
+          CNC laser machines operate by directing a focused laser beam onto the
+          material to be processed. The movement of the laser is controlled by a
+          computer, which precisely dictates the points the laser should target
+          based on the desired design. Special design software is used to
+          prepare the files containing the necessary instructions for the CNC
+          laser machine.
+        </p>
 
-                    <p>Diminution expression point reasonable it we he projection acceptance in devonshire.</p>
-                </div>
+        <h3>Components of a CNC Laser Machine</h3>
+        <p>
+          Laser Source: Generates the laser beam used in various operations.
+        </p>
+        <p>
+          Optical System: Includes lenses and mirrors that guide and focus the
+          laser beam.
+        </p>
+        <p>
+          Work Platform: The surface on which the material to be processed is
+          placed.
+        </p>
+        <p>
+          Control Unit: The computer and software that control the movement of
+          the laser and processing settings.
+        </p>
 
+        <h3>Types of Materials Used</h3>
+        <h5>
+          CNC laser machines can handle a wide range of materials, including:
+        </h5>
+        <ul>
+          <li>Metals (such as stainless steel, aluminum)</li>
+          <li>Plastics (such as acrylic, polycarbonate)</li>
+          <li>Wood (such as hardwood, plywood)</li>
+          <li>Glass and ceramics</li>
+          <li>Leather and fabrics</li>
+        </ul>
 
-                <div class="box">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>System Analysis</h3>
+        <h3>Applications of CNC Laser</h3>
+        <ul>
+          <li>
+            Industrial Manufacturing: Used in producing precise and complex
+            parts that require high accuracy.
+          </li>
+          <li>
+            Arts and Crafts: Utilized for engraving on wood, glass, and metals
+            to create distinctive artistic products.
+          </li>
+          <li>
+            Printing and Advertising: Employed in creating attractive and
+            accurate signage and promotional models.
+          </li>
+          <li>
+            Medical: Used in manufacturing medical tools and dental implants.
+          </li>
+        </ul>
 
-                    <p>Diminution expression point reasonable it we he projection acceptance in devonshire.</p>
-                </div>
+        <h3>Advantages and Disadvantages of CNC Laser</h3>
+        <h5>Advantages:</h5>
+        <ul>
+          <li>
+            High Precision: Laser can perform cutting and engraving operations
+            with accuracy down to micrometers.
+          </li>
+          <li>
+            Material Versatility: Can be used on a wide range of different
+            materials.
+          </li>
+          <li>
+            Speed and Efficiency: Laser is fast and efficient in production
+            compared to traditional methods.
+          </li>
+        </ul>
+        <h5>Disadvantages:</h5>
+        <ul>
+          <li>Cost: CNC laser machines can cost a lot of money to operate.</li>
+          <li>
+            Safety: Using lasers requires strict safety measures to avoid burns
+            or eye damage
+          </li>
+        </ul>
 
-
-                <div class="box">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>System Analysis</h3>
-
-                    <p>Diminution expression point reasonable it we he projection acceptance in devonshire.</p>
-                </div>
-            </div>
-        </div>
+        <h3>Conclusion</h3>
+        <p>
+          CNC laser technology is a leading tool in the fields of manufacturing
+          and engineering, offering innovative and efficient solutions to meet
+          the diverse needs of various industries. With its high precision and
+          ability to process a wide range of materials, this technology
+          continues to expand and grow, opening new horizons for creativity and
+          production.
+        </p>
+      </div>
     </section>
 
+    <script>
+      function functio(small, titlee, parggg) {
+        var full = document.getElementById("imagebox");
+
+        var title = document.getElementById("title");
+        var parg = document.getElementById("parg");
+
+        full.src = small.src;
+
+        title.innerHTML = titlee;
+        parg.innerHTML = parggg;
+      }
+    </script>
 
     <script src="swiperJs/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>

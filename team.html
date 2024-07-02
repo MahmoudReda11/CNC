@@ -7,7 +7,7 @@
     <title>Mystery Team</title>
 
     <!-- Fav Icon -->
-    <link rel="icon" href="img/logo-black.png" type="image/x-icon">
+    <link rel="icon" href="imge/cncIcon.png" type="image/x-icon" />
 
     <!-- Google Fonts -->
     <link
@@ -28,16 +28,19 @@
     
     <header>
         <nav class="container">
-            <a href="#" class="logo">Mystery Team</a>
+            <a href="index.html" class="logo">Mystery Team</a>
 
             <div class="links">
                 <a href="index.html">Home</a>
-                <a href="#">About CNC</a>
+                <a href="index.html#about">About CNC</a>
                 <a href="team.html">Team</a>
+
+                <p class="btn_video Close_Menu" onclick="open_close_Menu()"> <i class="fa-solid fa-xmark"></i></p>
             </div>
 
             <div class="icons">
                 <span onclick="open_close()" class="btn_video"><i class="fa-solid fa-play"></i></span>
+                <span onclick="open_close_Menu()" class="btn_video btn_menu"><i class="fa-solid fa-bars"></i></span>
             </div>
         </nav>
     </header>
@@ -66,6 +69,9 @@
             </div>
         </div>
     </section>
+
+
+    
 
 
 

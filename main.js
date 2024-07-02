@@ -3,6 +3,17 @@ function open_close() {
   div_video.classList.toggle("active")
 }
 
+
+var div_Links = document.querySelector(".links");
+function open_close_Menu() {
+  div_Links.classList.toggle("active")
+}
+
+window.addEventListener("scroll", () => {
+  div_Links.classList.remove("active")
+  div_video.classList.remove("active")
+})
+
 fetch('team.json')
             .then(response => response.json())
             .then(allTeam => {
